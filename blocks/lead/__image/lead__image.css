@@ -1,0 +1,10 @@
+.lead__image {
+  content: '';
+  background-image: url('../../../images/lead_map.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 0;
+  box-sizing: border-box;
+  padding-top: 62.5%;
+  margin-bottom: 8px;
+}
