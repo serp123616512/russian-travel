@@ -1,3 +1,15 @@
 .content__section {
   margin-bottom: 92px;
 }
+
+@media screen and (max-width: 864px) {
+  .content__section {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content__section {
+    margin-bottom: 64px;
+  }
+}
