@@ -1,0 +1,33 @@
+.cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: unset;
+  aspect-ratio: 1.6;
+  color: #fff;
+  text-decoration: none;
+  background-image: url('../../../images/cover_railway.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  position: relative;
+}
+
+.cover__link::before {
+  content: '';
+  background-color: #2A2C2F;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  opacity: .3;
+  transition: .5s ease;
+}
+
+.cover__link:hover::before {
+  opacity: .8;
+}
