@@ -4,3 +4,29 @@
   display: grid;
   gap: 80px;
 }
+
+@media screen and (max-width: 1080px) {
+  .places {
+    max-width: calc(100% - 2*48px);
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .places {
+    max-width: 792px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .places {
+    max-width: calc(100% - 2*24px);
+    gap: 72px;
+  }
+}
+
+@media screen and (max-width: 607px) {
+  .places {
+    max-width: 576px;
+    gap: 50px;
+  }
+}
