@@ -1,5 +1,4 @@
 .lead__image {
-  content: '';
   background-image: url('../../../images/lead_map.jpg');
   background-size: cover;
   width: 100%;
