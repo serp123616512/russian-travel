@@ -4,7 +4,7 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  quotes: none;
+  margin: 0;
 }
 
 @media screen and (max-width: 864px) {

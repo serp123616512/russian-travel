@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1080px) {
   .lead__subtitle {
-    margin: 0 0 56px;
+    margin-bottom: 56px;
   }
 }
 
@@ -18,7 +18,7 @@
     max-width: calc(100% - 2*70px);
     font-size: 23px;
     line-height: 28px;
-    margin: 0 0 48px;
+    margin-bottom: 48px;
   }
 }
 
@@ -27,7 +27,7 @@
     max-width: calc(100% - 2*16px);
     font-size: 20px;
     line-height: 24px;
-    margin: 0 0 44px;
+    margin-bottom: 44px;
   }
 }
 
@@ -35,6 +35,6 @@
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
-    margin: 0 0 40px;
+    margin-bottom: 40px;
   }
 }
